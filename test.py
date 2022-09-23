@@ -89,7 +89,7 @@ while True:
             email = input("Please enter your email: ")
             password = input("Please enter your password: ")
             from_email = input("Enter from email: ")
-            auth = reading_email(email, password)
+            auth = reading_email(email, password, from_email)
         break
     else:
         print("Wrong email format")
